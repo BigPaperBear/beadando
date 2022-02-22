@@ -1,8 +1,8 @@
 <?php
 
 namespace App\factories;
-use Classes;
+use Classes\factory;
 class createUser extends factory{
-
+    
 
 }
