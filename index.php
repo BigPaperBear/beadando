@@ -4,7 +4,7 @@
  * @author Szabó Zoltán Tamás <zoli.szabok@gmail.com>
  * @copyright 2022 
  * @version 0.0.1
- * @inheritDoc
+ * 
  * 
  */
 

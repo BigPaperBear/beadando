@@ -1,0 +1,22 @@
+{
+    "name": "tulajdonos/beadando",
+    "description": "beadando",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tulajdonos\\Beadando\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DCrepper",
+            "email": "72586295+DCrepper@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "thingengineer/mysqli-database-class": "dev-master",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
