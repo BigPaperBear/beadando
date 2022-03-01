@@ -3,18 +3,10 @@
 namespace Tulajdonos\Beadando;
 
 class App{
-    /**
-     *  This variable contains options of project
-     *
-     * @var array
-     */
-    protected $options = [];
-    /**
-     * $_ENV variable
-     *
-     * @var array
-     */
-    protected $env = [];
+    
+    protected const options = [];
+    
+    protected const env = [];
 
     public function __construct($options=[0=>null])
     {
