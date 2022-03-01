@@ -38,6 +38,8 @@ use PDO;
     public function set_PDO($_PDO)
     {
         $this->_PDO = $_PDO;
-
+    }
+    protected function connect(){
+        return $this->get_PDO();
     }
 }
