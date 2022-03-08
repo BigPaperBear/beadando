@@ -12,9 +12,9 @@ use PDO;
    
     public function __construct()
     {
-        $host = $_ENV['host'];
-        $db   = $_ENV['database'];
-        $port = $_ENV['port'];
+        $host = getenv('HOST');
+        $db   = getenv('DATABASE');
+        $port = getenv('PORT');
         $charset = 'utf8mb4';
         $dsn = "mysql:host=$host;dbname=$db;charset=$charset;port=$port";
         $this->set_PDO(new PDO($dsn, $_ENV['username'], $_ENV['password']));

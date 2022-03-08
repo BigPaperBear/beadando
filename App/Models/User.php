@@ -6,7 +6,7 @@ use Helper\Database;
 
 class User extends Database
 {
-
+    
     private  $username;
     private  $password;
 
@@ -15,7 +15,7 @@ class User extends Database
         $this->setUsername($name);
         $this->setPassword($password);
     }
-
+   
     /**
      * Get the value of password
      */ 
@@ -50,5 +50,14 @@ class User extends Database
     public function setUsername($username)
     {
         $this->username = $username;
+    }
+    public function login(){
+        
+        $pdo = $this->get_PDO();
+        
+      }
+    public function logout(){
+        unset($_SESSION);
+        session_regenerate_id();
     }
 }

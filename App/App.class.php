@@ -1,6 +1,9 @@
 <?php
 
-namespace Tulajdonos\Beadando;
+namespace App\Traits;
+
+
+
 
 class App{
     /**

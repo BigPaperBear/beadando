@@ -5,7 +5,9 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Tulajdonos\\Beadando\\": "src/"
+            "Tulajdonos\\Beadando\\": "Helper/",
+            "App\\Controller\\": "App/Controllers/",
+            "Helper\\": "Helper/"
         }
     },
     "authors": [{
@@ -15,5 +17,8 @@
     "minimum-stability": "stable",
     "require": {
 
+    },
+    "config": {
+        "optimize-autoloader ": true
     }
 }

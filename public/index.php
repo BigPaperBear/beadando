@@ -1,5 +1,7 @@
 <?php
 
+use App\Controllers\loginSystemController;
+//require __DIR__.'/../vendor/autoload.php';
 /**
  * @author Szabó Zoltán Tamás <zoli.szabok@gmail.com>
  * @copyright 2022 
@@ -21,8 +23,10 @@
 <body>
 <?php
 
-echo '<pre>';
 
+$testcomposer = new loginSystemController('test','test');
+echo '<pre>';
+var_dump($testcomposer);
 echo '</pre>';
 ?>
 
