@@ -4,11 +4,7 @@
     "type": "project",
     "license": "MIT",
     "autoload": {
-        "psr-4": {
-            "Tulajdonos\\Beadando\\": "Helper/",
-            "App\\Controller\\": "App/Controllers/",
-            "Helper\\": "Helper/"
-        }
+        "classmap": ["App/*", "Helper/"]
     },
     "authors": [{
         "name": "DCrepper",

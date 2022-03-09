@@ -1,9 +1,10 @@
 <?php
-namespace App\Controllers;
 
-use App\Models\User;
 
-class Eszkozkezelo extends User{
+require __DIR__.'/../../vendor/autoload.php';
+
+
+class EszkozkezeloController extends User{
 
 public function __construct(){
 

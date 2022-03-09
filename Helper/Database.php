@@ -1,9 +1,6 @@
 <?php
-/**
- * @codeCoverageIgnore
- */
-namespace Helper;
-use PDO;
+require __DIR__ . '/../vendor/autoload.php';
+//use PDO;
 
  class Database
 {   
@@ -15,6 +12,8 @@ use PDO;
         $host = getenv('HOST');
         $db   = getenv('DATABASE');
         $port = getenv('PORT');
+        $_ENV['username'] = getenv('USERNAME');
+        $_ENV['password'] = getenv('PASSWORD');
         $charset = 'utf8mb4';
         $dsn = "mysql:host=$host;dbname=$db;charset=$charset;port=$port";
         $this->set_PDO(new PDO($dsn, $_ENV['username'], $_ENV['password']));

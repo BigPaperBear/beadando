@@ -1,6 +1,5 @@
 <?php
-
-namespace Helper;
+require __DIR__ . '/../vendor/autoload.php';
 
 class Dotenv
 {

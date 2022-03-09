@@ -1,7 +1,6 @@
 <?php
 
-use App\Controllers\loginSystemController;
-//require __DIR__.'/../vendor/autoload.php';
+require __DIR__.'/../vendor/autoload.php';
 /**
  * @author Szabó Zoltán Tamás <zoli.szabok@gmail.com>
  * @copyright 2022 
@@ -22,14 +21,12 @@ use App\Controllers\loginSystemController;
 
 <body>
 <?php
-
-
-$testcomposer = new loginSystemController('test','test');
 echo '<pre>';
+$testcomposer = new loginSystemController('test','test');
 var_dump($testcomposer);
 echo '</pre>';
 ?>
-
+<h1>if work everything fine not showing up any error</h1>
 </body>
 
 </html>

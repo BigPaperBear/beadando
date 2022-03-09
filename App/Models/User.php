@@ -1,7 +1,6 @@
 <?php
 
-namespace App\Models;
-use Helper\Database;
+require __DIR__.'/../../vendor/autoload.php';
 
 
 class User extends Database

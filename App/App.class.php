@@ -1,10 +1,5 @@
 <?php
-
-namespace App\Traits;
-
-
-
-
+require __DIR__.'/../vendor/autoload.php';
 class App{
     /**
      *  This variable contains options of project

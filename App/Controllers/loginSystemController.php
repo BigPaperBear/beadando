@@ -1,7 +1,6 @@
 <?php
-namespace App\Controllers;
 
-use App\Models\User;
+require __DIR__.'/../../vendor/autoload.php';
 
 interface login{
  function loginUser();
@@ -13,7 +12,7 @@ class loginSystemController extends User implements login{
 
 public function __construct($username,$password)
 {
-    $this->__construct($username,$password);
+    parent::__construct($username,$password);
 
     
 } 
