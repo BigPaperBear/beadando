@@ -13,7 +13,6 @@ class loginSystemController extends User implements login{
 public function __construct($username,$password)
 {
     parent::__construct($username,$password);
-
     
 } 
 

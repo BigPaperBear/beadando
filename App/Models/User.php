@@ -27,7 +27,7 @@ class User extends Database
      * Set the value of password
      *
      * @return  self
-     */ 
+     */
     public function setPassword($password)
     {
         $this->password = $password;
@@ -51,10 +51,10 @@ class User extends Database
         $this->username = $username;
     }
     public function login(){
-        
+    
         $pdo = $this->get_PDO();
-        
-      }
+    
+    }
     public function logout(){
         unset($_SESSION);
         session_regenerate_id();
