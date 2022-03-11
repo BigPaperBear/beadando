@@ -60,3 +60,4 @@ class User extends Database
         session_regenerate_id();
     }
 }
+//
